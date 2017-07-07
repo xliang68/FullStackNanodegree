@@ -1,0 +1,80 @@
+body {
+    background-color: #fff;
+}
+
+#logo {
+    width: auto;
+	height: auto;
+    max-width: 90px;
+	max-height: 90px;
+	position: absolute;
+}
+
+.nametag {
+    color: #000;
+	text-shadow: 1px 1px 1px #eb3;
+    text-align: right;
+}
+
+hr {
+    color: #79a;
+	border: none;
+    height: 2px;
+	background-color: #79a;
+}
+
+#main-picture {
+    height: auto;
+	width: auto;
+    max-width: 60%;
+	min-width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+.interest-image {
+    height: auto; 
+	width: auto; 
+    max-width: 80%; 
+    min-width: 80%; 
+    position: relative;
+	left: 10%;
+}
+
+.interest-text {
+    font-weight: bold;
+	text-align: center;
+}
+
+.interest-box {
+    width: auto;
+	height: auto;
+    max-width: 30%;
+	min-width: 30%;
+    position: relative;
+	left: 5%;
+    display: inline-block;
+}
+
+header {
+	width: 100%;
+	order: 1;
+}
+
+#main1 {
+	width: 100%;
+	order: 2;
+}
+
+#interest {
+    color: #000;
+	text-shadow: 1px 1px 1px #EB3;
+    width: 100%;
+	order: 3;
+}
+
+#main2 {
+    width: 100%;
+	display: flex;
+    order: 4;
+}
